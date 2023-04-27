@@ -1,1 +1,2 @@
-# Naive-Bayes-Learning
+# Naive Bayes Learning
+Naive Bayes predicts the probability that given data point belongs to a particular class. From the model that I built; we can classify the text review if it’s positive or negative. Sometimes we got misclassified because the word is used many times in the opposite class. As we saw in the error analysis section, the model classified “I didn’t enjoy movie” as a positive because we used “enjoy” word a lot of times to explain our feeling about enjoyment. The accuracy of this model is 80.78%, the accuracy of the model with 10 cross validation is 81.01%, and 6 cross validation accuracy is 80.79% so the accuracy of this model is about 81%. 
